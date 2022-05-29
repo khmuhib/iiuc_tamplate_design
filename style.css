@@ -107,6 +107,21 @@ ul {
         display: block;
         float: none;
     }
+    .header_bottom_right button {
+        background-color: #31AED3;
+        border-radius: 4px;
+        padding: 5px 5px!important;
+        border: none;
+        outline: none;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        margin-left: 10px!important;
+    }
 }
 
 
