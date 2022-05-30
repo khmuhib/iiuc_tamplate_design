@@ -141,6 +141,9 @@ ul {
 
 /* Header Menu Top End */
 
+
+/* Main Menu Start */
+
 .header_main_menu_mid ul li a {
     color: #120D5E!important;
     font-family: 'Rubik';
@@ -149,3 +152,308 @@ ul {
     font-size: 18px;
     line-height: 26px;
 }
+
+
+/* Main Menu End */
+
+
+/* Slider Section Start */
+
+.carousel-inner img {
+    height: 542px;
+}
+
+.carousel-indicators button {
+    height: 15px!important;
+    width: 15px!important;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-inner img {
+        height: 300px;
+    }
+}
+
+
+/* Slider Section End */
+
+
+/* Notice section Start */
+
+.card_main {
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    overflow: hidden;
+    margin: 10px 0px;
+}
+
+.card_main:nth-child(2) .card_date {
+    background-color: #31AED3;
+}
+
+.card_main:nth-child(4) .card_date {
+    background-color: #31AED3;
+}
+
+.card_main:nth-child(5) .card_date {
+    background-color: #31AED3;
+}
+
+.card_left {
+    height: 100px;
+    width: 20%;
+    float: left;
+    position: relative;
+}
+
+.card_date {
+    background-color: #DC3545;
+    display: table;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    padding: 9px 25px;
+    border-radius: 5px;
+}
+
+.card_date span {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.notice_button_row {
+    margin: 10px 0px;
+    overflow: hidden;
+}
+
+.notice_buttons {
+    display: table;
+    float: right;
+}
+
+.notice_buttons a {
+    margin-left: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #872683;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+.card_right {
+    height: 100px;
+    width: 80%;
+    float: left;
+    line-height: 100px;
+}
+
+.card_right h5 {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    /* Slider Text */
+    color: #070707;
+    margin-left: 20px;
+    padding: 10px 10px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: white;
+    color: #872683;
+    border-bottom: 4px solid #872683;
+    border-radius: 0px;
+    text-align: left;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height */
+    /* tertiary */
+    color: #872683;
+}
+
+.nav-pills .nav-link {
+    color: #969494;
+}
+
+.notice_section_left {}
+
+.notice_section_right {
+    margin-top: 10px;
+}
+
+.notice_section {
+    overflow: hidden;
+}
+
+.notice_section_title {
+    float: left;
+}
+
+.notice_section_title h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #086B30;
+}
+
+.notice_section_title span {
+    height: 4px;
+    display: block;
+    height: 4px;
+    background-color: #086B30;
+}
+
+.notice_section_button {
+    float: right;
+}
+
+.notice_section_button a {
+    border: 2px solid #086B30;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #086B30;
+    display: block;
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+
+.notice_section_card {
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    overflow: hidden;
+    margin: 10px 0px;
+    background-image: url('images/recent_news.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.notice_card_date {
+    background-color: #41FF8D;
+    display: table;
+    padding: 2px 15px;
+}
+
+.notice_card_date span {
+    display: block;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.notice_card_title {
+    background: linear-gradient(180deg, #086B30 0%, rgba(8, 107, 48, 0.65) 0.01%, rgba(8, 107, 48, 0.76) 100%);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.notice_card_title h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 5px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card_left {
+        width: 30%;
+    }
+    .card_right {
+        width: 70%;
+    }
+}
+
+
+/* Notice section End */
+
+
+/* Footer Main Section Start */
+
+.footer_main_section {
+    background-image: url("images/footer_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer_main_section h5 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0F075A;
+}
+
+.footer_main_section ul li a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+
+/* Footer Main Section End */
+
+
+/* Copyright Section Start */
+
+.copyright_section_main {
+    background-color: #0F075A;
+}
+
+.copyright_section_main p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+/* Copyright Section End */
