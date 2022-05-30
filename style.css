@@ -279,7 +279,7 @@ ul {
     padding: 10px 10px;
 }
 
-.nav-pills .nav-link.active {
+.notice_section_left .nav-pills .nav-link.active {
     background-color: white;
     color: #872683;
     border-bottom: 4px solid #872683;
@@ -407,6 +407,253 @@ ul {
 
 
 /* Notice section End */
+
+
+/* News Archive Start */
+
+.news_archive_main {
+    overflow: hidden;
+    background-color: #D9D6FB;
+    margin: 0px 0px;
+}
+
+.news_archive_title {
+    border-right: 4px solid #120D5E;
+    display: table;
+    padding: 2px 18px;
+    margin-top: 40px;
+}
+
+.news_archive_title h3 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #120D5E;
+}
+
+.owl_carousole_main {}
+
+.item {
+    overflow: hidden;
+}
+
+.item_left {
+    height: 150px;
+    width: 100%;
+    float: left;
+}
+
+.item_left img {
+    height: 150px!important;
+    width: 100%!important;
+}
+
+.item_right {
+    width: 100%;
+    float: left;
+    padding: 0px 10px;
+}
+
+.item_right h3 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 38px;
+    /* or 158% */
+    color: #000000;
+    margin-top: 30px;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.owl_carousole_main {
+    position: relative;
+}
+
+.owl-prev {
+    position: absolute;
+    top: 60px;
+    left: -82px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    height: 30px!important;
+    width: 30px!important;
+    border-radius: 50%!important;
+    background-color: #0F075A!important;
+    color: white;
+}
+
+.owl-prev span {
+    color: white;
+}
+
+.owl-next span {
+    color: white;
+}
+
+.owl-next {
+    position: absolute;
+    top: 60px;
+    /* left: 0px; */
+    right: -82px;
+    bottom: 0px;
+    margin: auto;
+    height: 30px!important;
+    width: 30px!important;
+    border-radius: 50%!important;
+    background-color: #0F075A!important;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .news_archive_title {
+        border: none;
+        display: block;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .item_left {
+        width: 100%;
+        text-align: center;
+    }
+    .item_right {
+        width: 100%;
+    }
+    .item_right h3 {
+        text-align: center;
+    }
+    .item_right p {
+        text-align: center;
+    }
+}
+
+
+/* News Archive End */
+
+
+/* Admission Guide Start */
+
+.admission_guide_main {
+    background-color: #E0F3F9;
+}
+
+.admission_guide_card {
+    background-color: #0F075A;
+    text-align: center;
+    color: white;
+    padding: 35px 0px;
+    width: 100%;
+}
+
+.admission_guide_card img {
+    display: block;
+    margin: auto;
+}
+
+.admission_guide_card span {
+    display: block;
+}
+
+.admission_guide_main .nav-pills .nav-link.active {
+    background-color: #E0F3F9;
+    color: #086B30!important;
+    border-bottom: 4px solid #086B30;
+    border-radius: 0px;
+    text-align: left;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height */
+    /* tertiary */
+}
+
+
+/* Admission Guide End */
+
+
+/* Team Member Start */
+
+.team_member_main {
+    background-color: #E9EEFC;
+    margin-bottom: 40px!important;
+}
+
+
+/* Team Member Emd */
+
+
+/* Footer Top Start */
+
+.footer_top_main {
+    background-color: #D9D6FB!important;
+}
+
+.footer_top_left {
+    height: 100px;
+}
+
+.footer_top_left_logo {
+    width: 25%;
+    float: left;
+}
+
+.footer_top_left_logo img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.footer_top_left_text {
+    width: 75%;
+    float: left;
+    padding: 8px 0px;
+}
+
+.footer_top_left_text h6 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 28px;
+    color: #0F075A;
+}
+
+.footer_top_left_text p {
+    margin: 0px!important;
+}
+
+.footer_top_right {
+    text-align: right;
+}
+
+.footer_top_right h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0F075A;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer_top_right {
+        text-align: left;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+}
+
+
+/* Footer Top End */
 
 
 /* Footer Main Section Start */
